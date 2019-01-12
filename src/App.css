@@ -1,3 +1,9 @@
+body, html {
+  color:green;
+  margin:0;
+  background-color: aquamarine;
+}
+
 .App {
   text-align: center;
 }
@@ -9,8 +15,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
+  width:100vm;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -18,8 +24,28 @@
   color: white;
 }
 
+.kotak{
+  background-color: aliceblue;
+  border: solid 1px black;
+  color:black;
+  height: 50px;
+  width: 50px
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.item :hover{
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.container{
+  background-color: blanchedalmond;
+  width:100%;
+  margin:0;
+  padding:0;
 }
 
 @keyframes App-logo-spin {
